@@ -55,7 +55,7 @@ Built with ReactJS as a single-page application.
 ## Issues and Resolutions
 **ERROR**
 ReferenceError: Can't find variable: AudioContext
-
+![AudioContext Error](https://i.ibb.co/GQvGPWf/Audio-Error.png)
 
 **RESOLUTION**
 Pending: Issue manifests on Safari (Mac & iOS)
