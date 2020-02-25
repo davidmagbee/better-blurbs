@@ -28,6 +28,11 @@ h1 {
   padding: 5px 20px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+}
+
 main {
   margin: auto;
 }
@@ -45,10 +50,8 @@ audio {
   margin: 5px;
 }
 
-/* #blurb-mic {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+/* .blurb-mic {
+  margin: 0 auto;
 } */
 
 .navbar {

@@ -13,8 +13,12 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <h1><Link to='/'>blurbs</Link></h1>
-                {/* <img id='blurb-mic' src={blurbmic} alt={'blurb-mic'} href=''/> */}
+                <div className='blurbs-home'>
+                    <h1><Link to='/'>blurbs</Link></h1>
+                </div>
+                {/* <div className='blurb-mic'>
+                    <img id='blurb-mic' src={blurbmic} alt={'blurb-mic'} href=''/>
+                </div> */}
                 <ul className='header'>
                     <li><Link to='/Mic'>Record</Link></li>
                     <li><Link to='/About'>About</Link></li>
