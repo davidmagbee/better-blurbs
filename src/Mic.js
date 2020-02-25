@@ -53,7 +53,7 @@ export class Mic extends Component {
   };
 
   componentDidMount() {
-    navigator.getUserMedia(
+    navigator.mediaDevices.getUserMedia(
       { audio: true },
       () => {
         console.log("You can use the microphone.");
