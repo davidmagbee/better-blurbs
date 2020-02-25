@@ -53,17 +53,17 @@ export class Mic extends Component {
   };
 
   componentDidMount() {
-    navigator.mediaDevices.getUserMedia(
-      { audio: true },
-      () => {
-        console.log("You can use the microphone.");
-        this.setState({ isBlocked: false });
-      },
-      () => {
-        console.log("Unable to access the microphone.");
-        this.setState({ isBlocked: true });
-      }
-    );
+//     navigator.mediaDevices.getUserMedia(
+//       { audio: true },
+//       () => {
+//         console.log("You can use the microphone.");
+//         this.setState({ isBlocked: false });
+//       },
+//       () => {
+//         console.log("Unable to access the microphone.");
+//         this.setState({ isBlocked: true });
+//       }
+//     );
   }
 
   render() {
