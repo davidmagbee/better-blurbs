@@ -50,9 +50,22 @@ audio {
   margin: 5px;
 }
 
-/* .blurb-mic {
+#toptop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-} */
+}
+
+.blurb-mic {
+  margin: 0 auto;
+  float: left;
+}
+
+.blurbs-home {
+  margin: 0 auto;
+  float: right;
+}
 
 .navbar {
   list-style-type: none;
